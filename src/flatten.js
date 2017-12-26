@@ -1,6 +1,5 @@
 const flatten =
-  arrayOfArrays =>
-    arrayOfArrays
-      .reduce((accumulator, array) => [...accumulator, ...array], []);
+  arrayOfArrays => 
+    arrayOfArrays.reduce((x, y) => [...x, ...y], []);
 
 export default flatten;
