@@ -1,4 +1,4 @@
 const reverse =
-  arr => arr.slice().reverse();
+  arr => [...arr].reverse();
 
 export default reverse;

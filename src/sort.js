@@ -1,4 +1,4 @@
 const sort = 
-  arr => arr.slice().sort();
+  arr => [...arr].sort();
 
 export default sort;
