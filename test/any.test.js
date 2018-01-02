@@ -9,7 +9,7 @@ describe('any', () => {
   );
 
   it(
-    'should be able to determine if no given value is true',
+    'should be able to determine if any given value is not true',
     () =>
       expect(any(false))
         .toBe(false),
