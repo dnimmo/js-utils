@@ -6,7 +6,7 @@
 
   `true` if called with no falsy values.
 
-## any
+## any
 
 ```(anything [, ...anything]) => boolean```
 
@@ -54,19 +54,19 @@ OR:
 
   Returns the lowest supplied value.
 
-## percentage
+## percentage
 
 ```(number, number) => string```
 
   Returns a percentage to two decimal places. (First number as a percentage of the second number)
 
-## reverse
+## reverse
 
 ```(array) => array```
 
   Returns a new version of the supplied array, with the values in reverse order.
 
-## sort
+## sort
 
 ```(array) => array```
 
